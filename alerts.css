@@ -1,0 +1,86 @@
+/* Main layout for sidebar and content */
+.main-layout {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+/* Sidebar styles */
+.sidebar {
+    width: 200px;
+    background-color: #222;
+    min-height: 100vh;
+    padding-top: 20px;
+    position: sticky;
+    top: 0;
+}
+.sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.sidebar li {
+    margin-bottom: 4px;
+}
+.sidebar a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 20px;
+    transition: background 0.2s;
+}
+.sidebar a:hover {
+    background-color: #444;
+}
+/* Navigation Bar Styles */
+.navbar {
+    background-color: #222;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+.navbar li {
+    margin: 0;
+}
+.navbar a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 16px 24px;
+    transition: background 0.2s;
+}
+.navbar a:hover {
+    background-color: #444;
+}
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background-color: grey;
+    width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    min-height: 600px;
+}
+
+.alert {
+    background-color: #eee;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.alert > h1 {
+    padding: 2px;
+}
+
+.alert > p {
+    padding: 2px;
+}
